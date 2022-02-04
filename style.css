@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&family=Playfair+Display:wght@900&family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 2rem;
+    background-color: rgb(160, 192, 250);
+    display: flex;
+    justify-content: center;
+}
+
+.inicio {
+    background-color: rgb(252, 195, 195);
+    padding: 2rem;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: 'Impact, fantasy';
+}
+
+.caixa-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cérebro-exercitando {
+    height: 20rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.caixa-p-intro {
+    width: 60%;
+    text-align: center;
+}
+
+.desenvolvimento {
+    padding: 2rem;
+    background-color: rgb(217, 241, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-beneficios {
+    height: 17rem;
+}
+
+.texto-beneficios {
+    width: 40%;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.importância {
+    padding: 2rem;
+    background-color: rgb(216, 185, 211);
+    display: flex;
+    align-items: center;
+}
+
+.titulo-imagem-beneficio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    padding: 1rem;
+    width: 70%;
+}
+
+li {
+    list-style-type: square;
+}
+
+.p-beneficios {
+    width: 70%;
+}
+
+.caixa-cérebro-beneficios {
+    margin-right: 10rem;
+    width: 50%;
+}
+
+.cérebro-beneficios {
+    width: 100%;
+}
+
+footer {
+    padding: 2rem;
+    background-color: rgb(188, 245, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+@media(max-width: 480px) {
+    header {
+        padding: 1rem;
+    }
+    .inicio {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .cérebro-exercitando {
+        height: 12rem;
+    }
+    .caixa-p-intro {
+        width: 100%;
+    }
+    .desenvolvimento {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagem-beneficios {
+        height: 10rem;
+    }
+    ul {
+        width: 100%;
+    }
+    .texto-beneficios {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        padding-top: 5px;
+    }
+    .importância {
+        padding: 1rem;
+    }
+    .caixa-cérebro-beneficios {
+        display: none;
+    }
+    .cérebro-beneficios {
+        display: none;
+    }
+    .p-beneficios {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+    footer {
+        padding: 1rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+}
